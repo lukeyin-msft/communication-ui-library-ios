@@ -8,7 +8,7 @@ import Foundation
 /// User-configurable options for creating CallScreen.
 public struct CallScreenOptions {
     /// CallScreenControlBarOptions for specifying CallScreenControlBar customization.
-    public let controlBarOptions: CallScreenControlBarOptions?
+    private(set) var controlBarOptions: CallScreenControlBarOptions?
 
     /// Creates an instance of CallScreenOptions with related options.
     /// - Parameter controlBarOptions: CallScreenControlBarOptions for specifying CallScreenControlBar customization.

@@ -240,7 +240,7 @@ and launch(locator: JoinLocator, localOptions: LocalOptions? = nil) instead.
         let callConfiguration = CallConfiguration(locator: remoteOptions.locator,
                                                   credential: remoteOptions.credential,
                                                   displayName: remoteOptions.displayName /* <ROOMS_SUPPORT> */ ,
-                                                  roleHint: localOptions?.roleHint /* </ROOMS_SUPPORT> */ )
+                                                  roleHint: nil /* </ROOMS_SUPPORT> */ )
         launch(callConfiguration, localOptions: localOptions)
     }
 

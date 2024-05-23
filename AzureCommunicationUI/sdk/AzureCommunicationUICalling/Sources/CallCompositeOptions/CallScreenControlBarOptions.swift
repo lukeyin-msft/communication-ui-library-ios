@@ -8,7 +8,7 @@ import Foundation
 /// Configuration options for customizing the call screen control bar.
 public struct CallScreenControlBarOptions {
     /// Determines whether to display leave call confirmation. Default is enabled.
-    public let leaveCallConfirmationMode: LeaveCallConfirmationMode
+    private(set) var leaveCallConfirmationMode: LeaveCallConfirmationMode
 
     /// Initializes an instance of CallScreenControlBarOptions.
     /// - Parameter leaveCallConfirmationMode: Whether to enable or disable the leave call confirmation.

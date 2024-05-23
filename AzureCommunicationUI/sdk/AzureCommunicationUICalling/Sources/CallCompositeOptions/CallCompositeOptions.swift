@@ -42,10 +42,13 @@ public struct CallCompositeOptions {
                 callingScreenOrientation: OrientationOptions? = nil,
                 enableMultitasking: Bool = false,
                 enableSystemPictureInPictureWhenMultitasking: Bool = false,
+                setupScreenOptions: SetupScreenOptions? = nil,
                 callScreenOptions: CallScreenOptions? = nil,
                 callKitOptions: CallCompositeCallKitOptions? = nil,
                 disableInternalPushForIncomingCall: Bool = false,
-                displayName: String? = nil) {
+                displayName: String? = nil,
+                capabilitiesChangeNotificationMode: CapabilitiesChangeNotificationMode
+                = CapabilitiesChangeNotificationMode.alwaysDisplay) {
         self.themeOptions = theme
         self.localizationOptions = localization
         self.setupScreenOrientation = setupScreenOrientation

@@ -22,6 +22,8 @@
 		05C1C828297F4830006EDD0D /* CallHistoryRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C1C827297F4830006EDD0D /* CallHistoryRecord.swift */; };
 		05C1C82A297F516D006EDD0D /* CallHistoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C1C829297F516D006EDD0D /* CallHistoryService.swift */; };
 		05C1C831297F5680006EDD0D /* CallHistoryRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C1C830297F5680006EDD0D /* CallHistoryRepository.swift */; };
+		05D9778B2BFF8EDA00B63C23 /* CapabilitiesChangeNotificationMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D9778A2BFF8EDA00B63C23 /* CapabilitiesChangeNotificationMode.swift */; };
+		05D9778D2BFF924F00B63C23 /* SetupScreenOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D9778C2BFF924F00B63C23 /* SetupScreenOptions.swift */; };
 		05E28FF62AD60E5900FF7020 /* ParticipantRoleEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E28FF52AD60E5900FF7020 /* ParticipantRoleEnum.swift */; };
 		05F80DEE2A2E6F6700B20C87 /* PipReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F80DED2A2E6F6700B20C87 /* PipReducer.swift */; };
 		05F80DF02A2E713D00B20C87 /* VisibilityAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F80DEF2A2E713D00B20C87 /* VisibilityAction.swift */; };
@@ -349,6 +351,8 @@
 		05C1C827297F4830006EDD0D /* CallHistoryRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallHistoryRecord.swift; sourceTree = "<group>"; };
 		05C1C829297F516D006EDD0D /* CallHistoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallHistoryService.swift; sourceTree = "<group>"; };
 		05C1C830297F5680006EDD0D /* CallHistoryRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallHistoryRepository.swift; sourceTree = "<group>"; };
+		05D9778A2BFF8EDA00B63C23 /* CapabilitiesChangeNotificationMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapabilitiesChangeNotificationMode.swift; sourceTree = "<group>"; };
+		05D9778C2BFF924F00B63C23 /* SetupScreenOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupScreenOptions.swift; sourceTree = "<group>"; };
 		05E28FF52AD60E5900FF7020 /* ParticipantRoleEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantRoleEnum.swift; sourceTree = "<group>"; };
 		05F80DED2A2E6F6700B20C87 /* PipReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PipReducer.swift; sourceTree = "<group>"; };
 		05F80DEF2A2E713D00B20C87 /* VisibilityAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisibilityAction.swift; sourceTree = "<group>"; };
@@ -1368,6 +1372,8 @@
 				A441CD792BED6B7D004EF926 /* CallCompositeIncomingCallCancelled.swift */,
 				A441CD7B2BED6B8B004EF926 /* CallCompositePushNotification.swift */,
 				A441CD7D2BED6B98004EF926 /* CallCompositePushNotificationEventType.swift */,
+				05D9778A2BFF8EDA00B63C23 /* CapabilitiesChangeNotificationMode.swift */,
+				05D9778C2BFF924F00B63C23 /* SetupScreenOptions.swift */,
 			);
 			path = CallCompositeOptions;
 			sourceTree = "<group>";
@@ -2105,6 +2111,7 @@
 				FA378672284152CA005B6288 /* SetParticipantViewDataError.swift in Sources */,
 				756F597A2966026300BAFBF7 /* AccessibilityProvider.swift in Sources */,
 				985DF378269E07F400CFDA55 /* PrimaryButtonViewModel.swift in Sources */,
+				05D9778D2BFF924F00B63C23 /* SetupScreenOptions.swift in Sources */,
 				1FC30846266949E8007EC537 /* ColorExtension.swift in Sources */,
 				1FDBF9F1281F8D2F00B92273 /* ACSCallEndReasonExtension.swift in Sources */,
 				1F4B0F0526A6469F00E87014 /* RemoteParticipantsEventsAdapter.swift in Sources */,
@@ -2125,6 +2132,7 @@
 				5A314D26A09E235A6509C1C7 /* ACSCameraFacingExtension.swift in Sources */,
 				B2E5B17C2AA1326300D54A3A /* CallDiagnosticsViewModel.swift in Sources */,
 				5A31497E0DEBAB0256AD0B91 /* ErrorMocking.swift in Sources */,
+				05D9778B2BFF8EDA00B63C23 /* CapabilitiesChangeNotificationMode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

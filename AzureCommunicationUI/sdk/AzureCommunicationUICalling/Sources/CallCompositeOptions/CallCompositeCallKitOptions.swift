@@ -8,20 +8,20 @@ import CallKit
 /// CallKit options for the call.
 public struct CallCompositeCallKitOptions {
     /// CXProviderConfiguration for the call.
-    public let providerConfig: CXProviderConfiguration
+    private(set) var providerConfig: CXProviderConfiguration
 
     /// Whether the call supports hold. Default is true.
-    public let isCallHoldSupported: Bool
+    private(set) var isCallHoldSupported: Bool
 
     /// CallKit remote participant.
-    public let remoteParticipant: CallCompositeCallKitRemoteParticipant?
+    private(set) var remoteParticipant: CallCompositeCallKitRemoteParticipant?
 
     /// Configure audio session will be called before placing or accepting
     /// incoming call and before resuming the call after it has been put on hold
-    public let configureAudioSession: (() -> Error?)?
+    private(set) var configureAudioSession: (() -> Error?)?
 
     /// CallKit remote participant callback for incoming call
-    public let configureIncomingCallCaller: ((CallCompositeCaller)
+    private(set) var configureIncomingCallCaller: ((CallCompositeCaller)
                                           -> CallCompositeCallKitRemoteParticipant)?
 
     /// Create an instance of a CallCompositeCallKitOptions with options.
